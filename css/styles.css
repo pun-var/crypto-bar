@@ -1,0 +1,277 @@
+body {
+    font-family: 'montserrat', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar {
+    padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+    font-family: 'ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;  
+}
+
+h2 { 
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/**********headings**************/
+.title-text {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin: 5rem auto auto 0;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.download-buttons {
+    display: flex;
+}
+
+.btn {
+    display: flex;
+    margin: 10px;
+}
+
+/********download buttons***********/
+.download-button {
+    margin: 20% 3% 5% 0;
+}
+
+.playstore-icon {
+    height: 32px;
+    margin: 1px 10px auto 5px;
+    
+}
+
+.playstore-btn:hover .playstore-icon {
+    filter: invert(1);
+}
+
+.playstore-icon-text {
+    margin: auto 11px auto 2px;
+}
+
+.apple-icon {
+    height: 24px;
+    margin: 3px auto auto 10px;
+}
+
+.apple-icon-text {
+    margin: auto 10px auto 15px;
+}
+
+/***********title image************/
+.title-image {
+    margin-left: 5rem;
+    width: 65%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/***********features section**************/
+.feature-icons {
+    height: 60px;
+    margin-bottom: 1.6rem;
+}
+
+.feature-icons:hover {
+    filter: contrast(3) saturate(3); 
+}
+
+.feature-box {
+    padding: 36px 60px;
+    text-align: center;
+}
+
+#features {
+    padding: 5% 2%;
+    background-color: white;
+    position: relative;
+}
+
+.feature-heading {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.feature-description {
+    font-family: 'ubuntu', sans-serif;
+    font-size: 1.1rem;
+    color: #8f8f8f;
+}
+
+/**********testimonial section************/
+
+#testimonials {
+    padding: 5% 15% 2% 15% ;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-text {
+    padding: 0% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px;
+}
+
+/***********pricing************/
+
+#pricing {
+    padding: 10%;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;
+    margin: auto;
+}
+
+.btn-block {
+    margin: 1rem auto;
+}
+
+.pricing-btn-text {
+    margin: auto;
+}
+
+.pricing-column {
+    padding: 3%;
+}
+
+/***********media querries***********/
+
+@media (max-width: 991px) {
+    #title{
+        text-align: center;
+    }
+
+    .download-button {
+        margin: 4rem auto;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/***********call to action section***********/
+
+#cta {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.cta-text {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.3rem;
+    line-height: 1.5;
+    margin: 0 15% 2% 15%;
+}
+
+.cta-buttons {
+    display: flex;
+}
+
+.cta-apple-button:hover {
+    filter: invert(1);
+}
+
+.cta-playstore-button:hover {
+    filter: invert(1);
+}
+
+.cta-playstore-icon {
+    height: 32px;
+    margin: 1px 10px auto 5px;
+    filter: invert(1);
+}
+
+.cta-playstore-icon-text {
+    margin: auto 11px auto 2px;
+}
+
+.cta-apple-icon {
+    height: 24px;
+    margin: 3px auto auto 10px;
+}
+
+.cta-apple-icon-text {
+    margin: auto 10px auto 15px;
+}
+
+.cta-apple-button {
+    margin: 1.5rem 1.1rem 1.5rem auto;
+}
+
+.cta-playstore-button {
+    margin: 1.5rem auto 1.5rem 1.1rem;
+}
+
+/**********footer**********/
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.social-icons {
+    height: 72px;
+    padding: 20px;
+}
+
+#copyright-text {
+    padding: 20px 5px 5px 5px;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 1.1rem;
+}
