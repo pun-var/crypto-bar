@@ -3,7 +3,10 @@ body {
 }
 
 #title {
-    background-color: #ff4c68;
+    background-color: #000000;
+    background-image: url("/images/app-mockup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
 }
 
@@ -16,7 +19,8 @@ body {
 }
 
 .navbar-brand {
-    font-family: 'ubuntu', sans-serif;
+    color: white;
+    font-family: "poppins", "sans-serif";
     font-size: 2.5rem;
     font-weight: 700;
 }
@@ -77,7 +81,7 @@ h2 {
 }
 
 .playstore-icon-text {
-    margin: auto 11px auto 2px;
+    margin: auto;
 }
 
 .apple-icon {
@@ -87,6 +91,14 @@ h2 {
 
 .apple-icon-text {
     margin: auto 10px auto 15px;
+}
+
+.apple-btn:hover .apple-icon {
+    filter: invert(1);
+}
+
+.apple-btn:hover {
+    background-color: white;
 }
 
 /***********title image************/
@@ -114,8 +126,12 @@ h2 {
 
 #features {
     padding: 5% 2%;
-    background-color: white;
+    background-color: #1a1a1a;
     position: relative;
+}
+
+#features h3 {
+    color: white;
 }
 
 .feature-heading {
@@ -125,7 +141,7 @@ h2 {
 }
 
 .feature-description {
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: 1.1rem;
     color: #8f8f8f;
 }
@@ -135,7 +151,7 @@ h2 {
 #testimonials {
     padding: 5% 15% 2% 15% ;
     text-align: center;
-    background-color: #ef8172;
+    background-color: #000000;
     color: white;
 }
 
@@ -144,33 +160,53 @@ h2 {
 }
 
 .testimonial-image {
-    width: 10%;
-    border-radius: 100%;
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    border-radius: 50%;
     padding: 20px;
 }
 
 #press {
-    background-color: #ef8172;
+    background-color: #000000;
     text-align: center;
     padding-bottom: 3%;
 }
 
 .press-logo {
-    width: 10%;
     margin: 20px;
+}
+
+#mashable-icon {
+    width: 10%;
+    margin-left: 60px;
+}
+
+#tnw-icon {
+    width: 6%;
+}
+
+#bi-icon {
+    width: 25%;
 }
 
 /***********pricing************/
 
 #pricing {
+    background-color: #1a1a1a;
     padding: 10%;
     text-align: center;
 }
 
-h3 {
+#pricing h3 {
+    color: #000000;
     font-family: 'montserrat', sans-serif;
     font-weight: 700;
     margin: auto;
+}
+
+#pricing .pri-title, .pri-des {
+    color: white;
 }
 
 .btn-block {
@@ -207,7 +243,7 @@ h3 {
 #cta {
     padding: 7% 15%;
     text-align: center;
-    background-color: #ff4c68;
+    background-color: #000000;
     color: white;
 }
 
@@ -223,18 +259,17 @@ h3 {
     display: flex;
 }
 
-.cta-apple-button:hover {
+.cta-apple-button:hover .cta-apple-icon, .cta-playstore-button:hover .cta-playstore-icon {
     filter: invert(1);
 }
 
-.cta-playstore-button:hover {
-    filter: invert(1);
+.cta-playstore-button:hover, .cta-apple-button:hover {
+    background-color: white;
 }
 
 .cta-playstore-icon {
     height: 32px;
     margin: 1px 10px auto 5px;
-    filter: invert(1);
 }
 
 .cta-playstore-icon-text {
@@ -272,6 +307,6 @@ h3 {
 
 #copyright-text {
     padding: 20px 5px 5px 5px;
-    font-family: 'ubuntu', sans-serif;
+    font-family: 'poppins', sans-serif;
     font-size: 1.1rem;
 }
